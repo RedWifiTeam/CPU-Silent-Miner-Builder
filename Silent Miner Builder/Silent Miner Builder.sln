@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silent Miner Builder", "Silent Miner Builder\Silent Miner Builder.csproj", "{ACD74717-7321-431E-B2BD-B9DA33B9E743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System", "System\System.csproj", "{9D509455-FC8B-4B38-893E-8F845F60D1BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD74717-7321-431E-B2BD-B9DA33B9E743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD74717-7321-431E-B2BD-B9DA33B9E743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD74717-7321-431E-B2BD-B9DA33B9E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD74717-7321-431E-B2BD-B9DA33B9E743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D509455-FC8B-4B38-893E-8F845F60D1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D509455-FC8B-4B38-893E-8F845F60D1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D509455-FC8B-4B38-893E-8F845F60D1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D509455-FC8B-4B38-893E-8F845F60D1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7421473D-B4DA-4237-B750-CF4B86BA9949}
+	EndGlobalSection
+EndGlobal

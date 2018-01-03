@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\bin\Debug\System.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\bin\Debug\System.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\bin\Debug\System.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\System\obj\Debug\System.csproj.GenerateResource.Cache

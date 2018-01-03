@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\bin\Debug\Silent Miner Builder.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\bin\Debug\Silent Miner Builder.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent_Miner_Builder.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent_Miner_Builder.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent Miner Builder.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent Miner Builder.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent Miner Builder.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent Miner Builder.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\bin\Debug\Silent Miner Builder.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Silent Miner Builder\Silent Miner Builder\obj\Debug\Silent Miner Builder.csprojResolveAssemblyReference.cache
